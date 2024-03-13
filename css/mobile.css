@@ -1,0 +1,97 @@
+.attribution { 
+    font-size: 1.2rem;
+    min-width: 100%;
+    align-self: flex-end;
+    background-color: white;
+}
+
+html , body {
+    background: white;
+}
+
+#root {
+    height: 50rem;
+    width: 100%;
+}
+
+.margin-alignment {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container-main {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+.wrapper {
+    background: white;
+    border-radius: 0rem;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.container-results {
+    min-width: 100%;
+    min-height: 45%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#results-items {
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+.container-score, #score-numbers, #score-text, #score-desc {
+    padding: 0;
+    margin: 0;
+}
+
+.container-score {
+    width: 15rem;
+}
+
+
+.container-summary {
+    min-width: 100%;
+    min-height: 55%;
+    overflow: hidden;
+}
+
+#summary-items div {
+    margin-top: 1rem;
+}
+
+.reaction, .memory, .verbal, .visual {
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.reaction h2, .memory h2, .verbal h2, .visual h2{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.title-summary {
+    margin: 0;
+    height: 2.5rem;
+}
+
+.title-results {
+    margin: 0;
+}
+
+#score-text {
+    padding-top: 1.3rem;
+}
+
+#score-desc {
+    padding-top: 1.5rem;
+}
+

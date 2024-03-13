@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" media="screen and (max-width: 650px)" href="css/mobile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <!-- <div id="root"> -->
+    <!-- <div class="margin-alignment"> -->
+      <div class="container-main">
+        <div class="wrapper flex bc-white">
+          <div class="container-results bc-lsb gc-1">
+            <div id="results-items" class="flex flex-col flex-align-center">
+              <h1 class="title-results">Your Result</h1>
+              <div class="container-score circle gc-2">
+              <p id="score-numbers">76</p> 
+              <p id="score-numbers-one-hundred">of 100</p>
+              </div>
+                <h2 id="score-text">Great</h2>
+                <p id="score-desc">You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
+          </div>
+
+          <div class="container-summary">
+            <div id="summary-items" class="flex flex-col">
+              <h1 class="title-summary">Summary</h1>
+                <div class="reaction flex">
+                  <img id="reaction-icon">
+                  <h2>Reaction</h2>
+                  <!-- Fills in the rest of the space inbetween the header and paragraph so the paragraph is all the way to the right -->
+                  <div class="flex-1"></div>
+                  <p><span id="reaction-score"></span> / 100</p>
+                </div>
+                <div class="memory flex">
+                  <img id="memory-icon">
+                  <h2>Memory</h2>
+                  <!-- Fills in the rest of the space inbetween the header and paragraph so the paragraph is all the way to the right -->
+                  <div class="flex-1"></div>
+                  <p><span id="memory-score"></span> / 100</p>
+                </div>
+                <div class="verbal flex">
+                  <img id="verbal-icon">
+                  <h2>Verbal</h2>
+                  <!-- Fills in the rest of the space inbetween the header and paragraph so the paragraph is all the way to the right -->
+                  <div class="flex-1"></div>
+                  <p><span id="verbal-score"></span> / 100</p>
+                </div>
+                <div class="visual flex">
+                  <img id="visual-icon">
+                  <h2>Visual</h2>
+                  <!-- Fills in the rest of the space inbetween the header and paragraph so the paragraph is all the way to the right -->
+                  <div class="flex-1"></div>
+                  <p><span id="visual-score"></span> / 100</p>
+                </div>
+              <div class="flex-1"></div>
+              <a href="#" class="continue-button bc-dgb fontcolor-w">Continue</a>
+            </div>
+          </div>
+        </div>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">SnakeZ</a>.
+        </div>
+      </div>
+    <!-- </div> -->
+<!-- </div> -->
+
+  <script src="script.js"></script>
+  <script src="data.json"></script>
+</body>
+</html>

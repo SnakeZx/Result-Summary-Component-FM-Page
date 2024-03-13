@@ -1,0 +1,104 @@
+
+/* Text Colors */
+.fontcolor-lr {
+    color: hsl(0, 100%, 67%);
+}
+
+.fontcolor-oy {
+    color: hsl(39, 100%, 56%);
+}
+
+.fontcolor-gt {
+    color: hsl(166, 100%, 37%);
+}
+
+.fontcolor-cb {
+    color: hsl(234, 85%, 45%);
+}
+
+.fontcolor-w {
+    color: hsl(0, 0%, 100%);
+}
+
+/* Background Colors */
+
+/* .bc-lsb {
+    background: hsl(252, 100%, 67%);
+} */
+
+.bc-lrb {
+    background: hsl(240, 27%, 26%);
+}
+
+/* Gradient Colors */
+
+.gc-1 {
+    background: linear-gradient(rgba(78, 33, 202, 0.889), hsl(241, 72%, 46%));
+}
+
+.gc-2 {
+    background: linear-gradient(rgb(78, 33, 202), hsla(241, 72%, 46%, 0.15));
+}
+
+/* Neutral Colors */
+.bc-white {
+    background: (0, 0%, 100%);
+}
+
+.bc-paleb {
+    background: hsl(221, 100%, 96%);
+}
+.bc-llav {
+    background: hsl(241, 100%, 89%);
+}
+.bc-dgb {
+    background: hsl(224, 30%, 27%)
+}
+
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-content-center {
+    align-content: center;
+}
+
+.flex-self-end {
+    align-self: flex-end;
+}
+
+.h-full {
+    height: 100%;
+}
+.circle {
+    border-radius: 50%;
+}

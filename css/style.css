@@ -1,0 +1,241 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html , body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    height: 100vh;
+    line-height: 1.8em;
+    background: #f4f4f4;
+}
+
+#root {
+    overflow: auto;
+}
+
+
+p {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.continue-button:hover {
+    background: linear-gradient(rgba(78, 33, 202, 0.86), hsla(241, 72%, 46%, 0.893) );
+}
+
+h1, h2, h3 {
+    height: 4rem;
+}
+
+#results-items {
+    padding: .5rem;
+    height: 100%;
+}
+
+
+.title-summary, .title-results {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.title-summary {
+    display: flex;
+    padding-left: 1rem;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.wrapper {
+    background: white;
+    border-radius: 2rem;
+    max-height: 100%;
+}
+
+.margin-alignment {
+    margin: 23rem 0;
+}
+
+.container-results {
+    width: 31rem;
+    height: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.container-score {
+    height: 14rem;
+    width: 14rem;
+    margin: 2rem auto;
+}
+
+.container-score #score-numbers {
+    margin-top: 40%;
+    text-align: center;
+    font-size: 5.5rem;
+    font-weight: 500;
+}
+
+.container-score #score-numbers-one-hundred {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #aaa;
+    font-weight: 400;
+}
+
+#score-text {
+    font-weight: 500;
+    font-size: 3.4rem;
+    padding: .6rem;
+    margin-top: 1.4rem;
+}
+
+#score-desc {
+    margin-top: .5rem;
+    font-weight: 400;
+    padding: 1.2rem;
+    color: #aaa;
+}
+
+
+.container-summary {
+    width: 31rem;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#summary-items{
+    height: 100%;
+}
+
+
+
+.container-results, .container-summary {
+    padding: 20px;
+}
+
+.continue-button {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-top: 2rem ;
+    justify-content: center;
+}
+
+/* Summary items */
+.reaction h2, .memory h2, .verbal h2, .visual h2{
+    padding: 1rem;
+}
+
+#reaction-icon, #memory-icon, #verbal-icon, #visual-icon {
+    margin-left: 1rem;
+}
+.reaction {
+    background: hsla(0, 100%, 67%, 0.118);
+    padding: .5rem 0;
+    margin: .7rem 1rem;
+    border-radius: .5rem;
+}
+
+.reaction h2{
+    color: hsl(0, 100%, 67%);
+    font-weight: 500;
+}
+
+.reaction p {
+    color: hsl(0, 0%, 65%);
+    font-weight: 550;
+    margin: auto 1.755rem;
+}
+
+.reaction p span {
+    color: black;
+}
+
+.memory {
+    background: hsla(39, 100%, 56%, 0.118);
+    padding: .5rem 0;
+    margin: .7rem 1rem;
+    border-radius: .5rem;
+}
+
+.memory h2{
+    color: hsl(39, 100%, 56%);
+    font-weight: 500;
+}
+
+.memory p {
+    color: hsl(0, 0%, 65%);
+    font-weight: 550;
+    margin: auto 1.914rem;
+}
+
+.memory p span {
+    color: black;
+}
+
+.verbal {
+    background: hsla(166, 100%, 37%, 0.118);
+    padding: .5rem 0;
+    border-radius: .5rem;
+    margin: .7rem 1rem;
+}
+
+.verbal h2{
+    color: hsl(166, 100%, 37%);
+    font-weight: 500;
+}
+
+.verbal p {
+    color: hsl(0, 0%, 65%);
+    font-weight: 550;
+    margin: auto 2.21rem;
+}
+
+.verbal p span {
+    color: black;
+}
+
+.visual {
+    background: hsla(234, 85%, 45%, 0.118);
+    padding: .5rem 0;
+    border-radius: .5rem;
+    margin: .7rem 1rem;
+}
+
+.visual h2{
+    color: hsl(234, 85%, 45%);
+    font-weight: 500;
+}
+
+.visual p {
+    color: hsl(0, 0%, 65%);
+    font-weight: 550;
+    margin: auto 2.27rem;
+}
+
+.visual p span {
+    color: black;
+}
